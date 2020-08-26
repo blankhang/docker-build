@@ -5,8 +5,6 @@ the alpine-3.12 base image with glibc-2.32-r0 and GMT+8 timezone <a href="https:
 
 ## centos7 with openjdk8
 ```shell script
-docker pull blankhang/centos7
-# or
 docker pull blankhang/centos7:openjdk8
 ```
 ## centos7 with openjdk11
