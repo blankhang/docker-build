@@ -3,11 +3,11 @@ the centos7 base image with chinese lanugage font and GMT+8 timezone  <a href="h
 the alpine-3.12 base image with glibc-2.32-r0 and GMT+8 timezone <a href="https://hub.docker.com/r/blankhang/alpine-3.12"  target="_blank">hub.docker.com/r/blankhang/alpine-3.12</a>  
 一些个人使用的 docker 底包  
 
-## centos7 with openjdk8
+## centos7 with openjdk8 197.94MB
 ```shell script
 docker pull blankhang/centos7:openjdk8
 ```
-## centos7 with openjdk11
+## centos7 with openjdk11 199.91MB
 ```shell script
 docker pull blankhang/centos7:openjdk11
 ```
