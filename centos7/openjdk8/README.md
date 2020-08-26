@@ -2,7 +2,5 @@
 #### centos7 添加 中文支持和 openjdk8 和时区设置为东8区
 
 ```shell script
-docker pull blankhang/centos7
-# or
-docker pull blankhang/centos7:openjdk8
+docker pull blankhnag/centos7
 ```
