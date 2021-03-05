@@ -24,7 +24,3 @@ docker pull blankhnag/alpine-3.12:openjdk8
 ```shell script
 docker pull blankhnag/alpine-3.12:openjdk11
 ```
-## alpine-3.12 with glibc-2.32-r0 and openjdk11 jlinked  89.63MB
-```shell script
-docker pull blankhnag/alpine-3.12:openjdk11-jlink
-```
