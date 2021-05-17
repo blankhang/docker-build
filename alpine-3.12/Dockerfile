@@ -1,6 +1,6 @@
 FROM alpine:3.12
 MAINTAINER blankhang <blankhang@gmail.comm>
-RUN apk add --no-cache ca-certificates bash curl openssl binutils zip zstd tzdata ttf-dejavu fontconfig \
+RUN apk add --no-cache ca-certificates bash curl openssl binutils zip zstd tzdata ttf-dejavu \
     && ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
     && echo "Asia/Shanghai" > /etc/timezone \
     && GLIBC_VER="2.32-r0" \
