@@ -1,5 +1,6 @@
 FROM alpine:3.12
 MAINTAINER blankhang <blankhang@gmail.comm>
+ENV LANG en_US.UTF-8
 RUN apk add --no-cache ca-certificates bash curl openssl binutils zip zstd tzdata ttf-dejavu fontconfig \
     && ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
     && echo "Asia/Shanghai" > /etc/timezone \
